@@ -1,0 +1,792 @@
+211217 17:38:32  InnoDB: Started; log sequence number 0 180305963
+211217 17:38:32 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+211217 18:06:16 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+211217 18:06:16  InnoDB: Starting shutdown...
+211217 18:06:19  InnoDB: Shutdown completed; log sequence number 0 196255307
+211217 18:06:19 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+211217 20:19:33  InnoDB: Started; log sequence number 0 196255307
+211217 20:19:33 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+211223  8:13:17  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+211223  8:13:17  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 208472366.
+InnoDB: Doing recovery: scanned up to log sequence number 0 208472366
+211223  8:13:17  InnoDB: Started; log sequence number 0 208472366
+211223  8:13:17 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+211223  8:14:41 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+211223  8:14:41  InnoDB: Starting shutdown...
+211223  8:14:43  InnoDB: Shutdown completed; log sequence number 0 208472366
+211223  8:14:43 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+211223  8:15:12  InnoDB: Started; log sequence number 0 208472366
+211223  8:15:12 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+211223 22:52:01  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+211223 22:52:01  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 208472376.
+InnoDB: Doing recovery: scanned up to log sequence number 0 208472376
+211223 22:52:01  InnoDB: Started; log sequence number 0 208472376
+211223 22:52:01 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+211226 19:42:18  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+211226 19:42:18  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 208472867.
+InnoDB: Doing recovery: scanned up to log sequence number 0 208472867
+211226 19:42:18  InnoDB: Started; log sequence number 0 208472867
+211226 19:42:18 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220104  9:55:56 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220104  9:55:56  InnoDB: Starting shutdown...
+220104  9:55:59  InnoDB: Shutdown completed; log sequence number 0 238371145
+220104  9:55:59 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220104 10:11:54  InnoDB: Started; log sequence number 0 238371145
+220104 10:11:54 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220113 15:22:25 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220113 15:22:25  InnoDB: Starting shutdown...
+220113 15:22:27  InnoDB: Shutdown completed; log sequence number 0 253338389
+220113 15:22:27 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220113 20:29:24  InnoDB: Started; log sequence number 0 253338389
+220113 20:29:24 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220126  8:53:05 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220126  8:53:05  InnoDB: Starting shutdown...
+220126  8:53:07  InnoDB: Shutdown completed; log sequence number 0 283332546
+220126  8:53:07 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220126  8:53:26  InnoDB: Started; log sequence number 0 283332546
+220126  8:53:26 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220128 13:50:30  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+220128 13:50:31  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 283338281.
+InnoDB: Doing recovery: scanned up to log sequence number 0 283338281
+220128 13:50:31  InnoDB: Started; log sequence number 0 283338281
+220128 13:50:31 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220131  7:44:04  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+220131  7:44:04  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 283342108.
+InnoDB: Doing recovery: scanned up to log sequence number 0 283342108
+220131  7:44:04  InnoDB: Started; log sequence number 0 283342108
+220131  7:44:04 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220131 14:36:16 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220131 14:36:16  InnoDB: Starting shutdown...
+220131 14:36:18  InnoDB: Shutdown completed; log sequence number 0 283348226
+220131 14:36:18 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220131 14:36:41  InnoDB: Started; log sequence number 0 283348226
+220131 14:36:41 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220202  8:18:22  InnoDB: Started; log sequence number 0 283348226
+220202  8:18:22 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220202  8:18:38 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220202  8:18:38  InnoDB: Starting shutdown...
+220202  8:18:40  InnoDB: Shutdown completed; log sequence number 0 283348226
+220202  8:18:40 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220202  8:19:00  InnoDB: Started; log sequence number 0 283348226
+220202  8:19:00 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220202  9:20:33 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220202  9:20:33  InnoDB: Starting shutdown...
+220202  9:20:35  InnoDB: Shutdown completed; log sequence number 0 283348226
+220202  9:20:35 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220202  9:20:56  InnoDB: Started; log sequence number 0 283348226
+220202  9:20:56 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220202 11:38:06  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+220202 11:38:06  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 283348699.
+InnoDB: Doing recovery: scanned up to log sequence number 0 283348699
+220202 11:38:06  InnoDB: Started; log sequence number 0 283348699
+220202 11:38:06 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220202 11:54:35  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+220202 11:54:35  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 283348699.
+InnoDB: Doing recovery: scanned up to log sequence number 0 283348699
+220202 11:54:35  InnoDB: Started; log sequence number 0 283348699
+220202 11:54:35 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220202 11:58:15  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+220202 11:58:15  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 283348699.
+InnoDB: Doing recovery: scanned up to log sequence number 0 283348699
+220202 11:58:15  InnoDB: Started; log sequence number 0 283348699
+220202 11:58:15 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220202 13:48:33  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+220202 13:48:33  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 283348699.
+InnoDB: Doing recovery: scanned up to log sequence number 0 283348699
+220202 13:48:33  InnoDB: Started; log sequence number 0 283348699
+220202 13:48:33 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220203  7:56:20  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+220203  7:56:20  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 283348699.
+InnoDB: Doing recovery: scanned up to log sequence number 0 283348699
+220203  7:56:20  InnoDB: Started; log sequence number 0 283348699
+220203  7:56:20 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220203  8:28:38 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220203  8:28:38  InnoDB: Starting shutdown...
+220203  8:28:43  InnoDB: Shutdown completed; log sequence number 0 283348709
+220203  8:28:43 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220203  8:29:01  InnoDB: Started; log sequence number 0 283348709
+220203  8:29:01 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220204  8:16:32 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220204  8:16:32  InnoDB: Starting shutdown...
+220204  8:16:35  InnoDB: Shutdown completed; log sequence number 0 283353869
+220204  8:16:35 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220204  8:16:53  InnoDB: Started; log sequence number 0 283353869
+220204  8:16:53 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220210 14:00:43  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+220210 14:00:43  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 298408041.
+InnoDB: Doing recovery: scanned up to log sequence number 0 298408041
+220210 14:00:43  InnoDB: Started; log sequence number 0 298408041
+220210 14:00:43 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220214  8:36:23  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+220214  8:36:23  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 298408051.
+InnoDB: Doing recovery: scanned up to log sequence number 0 298408051
+220214  8:36:23  InnoDB: Started; log sequence number 0 298408051
+220214  8:36:23 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220215  7:57:07  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+220215  7:57:07  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 311705468.
+InnoDB: Doing recovery: scanned up to log sequence number 0 311705468
+220215  7:57:07  InnoDB: Started; log sequence number 0 311705468
+220215  7:57:07 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220216 14:07:25  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+220216 14:07:26  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 311705478.
+InnoDB: Doing recovery: scanned up to log sequence number 0 311705478
+220216 14:07:26  InnoDB: Started; log sequence number 0 311705478
+220216 14:07:26 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220225 14:42:29 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220225 14:42:29  InnoDB: Starting shutdown...
+220225 14:42:31  InnoDB: Shutdown completed; log sequence number 0 311726684
+220225 14:42:31 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220225 14:42:51  InnoDB: Started; log sequence number 0 311726684
+220225 14:42:51 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220301 14:07:52  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+220301 14:07:52  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 311726694.
+InnoDB: Doing recovery: scanned up to log sequence number 0 311726694
+220301 14:07:52  InnoDB: Started; log sequence number 0 311726694
+220301 14:07:52 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220302  8:09:38  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+220302  8:09:38  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 311726694.
+InnoDB: Doing recovery: scanned up to log sequence number 0 311726694
+220302  8:09:38  InnoDB: Started; log sequence number 0 311726694
+220302  8:09:38 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220302  9:51:52 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220302  9:51:52  InnoDB: Starting shutdown...
+220302  9:51:54  InnoDB: Shutdown completed; log sequence number 0 311726704
+220302  9:51:54 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220302  9:52:10  InnoDB: Started; log sequence number 0 311726704
+220302  9:52:10 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220304  8:28:05  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+220304  8:28:05  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 311729523.
+InnoDB: Doing recovery: scanned up to log sequence number 0 311729523
+220304  8:28:05  InnoDB: Started; log sequence number 0 311729523
+220304  8:28:05 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220310  8:34:14 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220310  8:34:14  InnoDB: Starting shutdown...
+220310  8:34:16  InnoDB: Shutdown completed; log sequence number 0 326615110
+220310  8:34:16 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220310  8:34:35  InnoDB: Started; log sequence number 0 326615110
+220310  8:34:35 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220315  4:03:39  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+220315  4:03:40  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 341782703.
+InnoDB: Doing recovery: scanned up to log sequence number 0 341782703
+220315  4:03:40  InnoDB: Started; log sequence number 0 341782703
+220315  4:03:40 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220315  8:52:12  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+220315  8:52:12  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 341782703.
+InnoDB: Doing recovery: scanned up to log sequence number 0 341782703
+220315  8:52:12  InnoDB: Started; log sequence number 0 341782703
+220315  8:52:12 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220316  8:34:28 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220316  8:34:28  InnoDB: Starting shutdown...
+220316  8:34:31  InnoDB: Shutdown completed; log sequence number 0 341794340
+220316  8:34:31 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220316  8:34:49  InnoDB: Started; log sequence number 0 341794340
+220316  8:34:49 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220317  9:09:25 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220317  9:09:25  InnoDB: Starting shutdown...
+220317  9:09:28  InnoDB: Shutdown completed; log sequence number 0 341796036
+220317  9:09:28 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220317  9:09:44  InnoDB: Started; log sequence number 0 341796036
+220317  9:09:44 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220317 15:21:03 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220317 15:21:03  InnoDB: Starting shutdown...
+220317 15:21:05  InnoDB: Shutdown completed; log sequence number 0 341798566
+220317 15:21:05 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220317 21:35:15  InnoDB: Started; log sequence number 0 341798566
+220317 21:35:15 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220324  8:29:25 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220324  8:29:25  InnoDB: Starting shutdown...
+220324  8:29:28  InnoDB: Shutdown completed; log sequence number 0 341804208
+220324  8:29:28 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220324  8:29:48  InnoDB: Started; log sequence number 0 341804208
+220324  8:29:48 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220404  8:02:02 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220404  8:02:02  InnoDB: Starting shutdown...
+220404  8:02:02  InnoDB: Shutdown completed; log sequence number 0 341811452
+220404  8:02:02 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220404  8:02:24  InnoDB: Started; log sequence number 0 341811452
+220404  8:02:24 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220404  8:54:50 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220404  8:54:50  InnoDB: Starting shutdown...
+220404  8:54:54  InnoDB: Shutdown completed; log sequence number 0 341811462
+220404  8:54:54 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220404  8:55:12  InnoDB: Started; log sequence number 0 341811462
+220404  8:55:12 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220405 14:35:46 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220405 14:35:46  InnoDB: Starting shutdown...
+220405 14:35:47  InnoDB: Shutdown completed; log sequence number 0 341811472
+220405 14:35:47 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220405 14:36:07  InnoDB: Started; log sequence number 0 341811472
+220405 14:36:07 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220405 14:36:08 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220405 14:36:08  InnoDB: Starting shutdown...
+220405 14:36:11  InnoDB: Shutdown completed; log sequence number 0 341811472
+220405 14:36:11 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220406  8:08:14  InnoDB: Started; log sequence number 0 341811472
+220406  8:08:14 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220411 11:49:54 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220411 11:49:54  InnoDB: Starting shutdown...
+220411 11:49:54  InnoDB: Shutdown completed; log sequence number 0 341815794
+220411 11:49:54 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220411 11:50:16  InnoDB: Started; log sequence number 0 341815794
+220411 11:50:16 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220412  8:12:42  InnoDB: Started; log sequence number 0 341815794
+220412  8:12:42 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220421  8:15:07 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220421  8:15:07  InnoDB: Starting shutdown...
+220421  8:15:11  InnoDB: Shutdown completed; log sequence number 0 341876358
+220421  8:15:11 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220421  8:15:33  InnoDB: Started; log sequence number 0 341876358
+220421  8:15:33 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220421  8:15:57 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220421  8:15:57  InnoDB: Starting shutdown...
+220421  8:15:59  InnoDB: Shutdown completed; log sequence number 0 341876394
+220421  8:15:59 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220421  8:16:30  InnoDB: Started; log sequence number 0 341876394
+220421  8:16:30 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220421  8:41:21 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220421  8:41:21  InnoDB: Starting shutdown...
+220421  8:41:25  InnoDB: Shutdown completed; log sequence number 0 341876404
+220421  8:41:25 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220421  8:41:45  InnoDB: Started; log sequence number 0 341876404
+220421  8:41:45 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220510  8:44:03 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220510  8:44:03  InnoDB: Starting shutdown...
+220510  8:44:05  InnoDB: Shutdown completed; log sequence number 0 341943890
+220510  8:44:05 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220510  8:44:26  InnoDB: Started; log sequence number 0 341943890
+220510  8:44:26 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220517  9:06:05 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220517  9:06:05  InnoDB: Starting shutdown...
+220517  9:06:06  InnoDB: Shutdown completed; log sequence number 0 341988840
+220517  9:06:06 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220517  9:06:41  InnoDB: Started; log sequence number 0 341988840
+220517  9:06:41 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220524  8:08:40 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220524  8:08:40  InnoDB: Starting shutdown...
+220524  8:08:43  InnoDB: Shutdown completed; log sequence number 0 342017635
+220524  8:08:43 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220524  8:09:02  InnoDB: Started; log sequence number 0 342017635
+220524  8:09:02 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220527 18:59:16 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220527 18:59:16  InnoDB: Starting shutdown...
+220527 18:59:17  InnoDB: Shutdown completed; log sequence number 0 342042396
+220527 18:59:17 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220530  8:47:38  InnoDB: Started; log sequence number 0 342042396
+220530  8:47:38 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220530  8:48:20 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220530  8:48:20  InnoDB: Starting shutdown...
+220530  8:48:22  InnoDB: Shutdown completed; log sequence number 0 342042432
+220530  8:48:22 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220530  8:49:02  InnoDB: Started; log sequence number 0 342042432
+220530  8:49:02 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220531  9:21:01 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220531  9:21:01  InnoDB: Starting shutdown...
+220531  9:21:04  InnoDB: Shutdown completed; log sequence number 0 342044408
+220531  9:21:04 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220531  9:21:24  InnoDB: Started; log sequence number 0 342044408
+220531  9:21:24 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220601 18:17:11 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220601 18:17:11  InnoDB: Starting shutdown...
+220601 18:17:13  InnoDB: Shutdown completed; log sequence number 0 342057621
+220601 18:17:13 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220601 18:39:03  InnoDB: Started; log sequence number 0 342057621
+220601 18:39:03 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220601 18:49:26 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220601 18:49:26  InnoDB: Starting shutdown...
+220601 18:49:28  InnoDB: Shutdown completed; log sequence number 0 342057621
+220601 18:49:28 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220602  8:16:47  InnoDB: Started; log sequence number 0 342057621
+220602  8:16:47 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220603  8:35:46 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220603  8:35:46  InnoDB: Starting shutdown...
+220603  8:35:49  InnoDB: Shutdown completed; log sequence number 0 342066783
+220603  8:35:49 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220603  8:36:07  InnoDB: Started; log sequence number 0 342066783
+220603  8:36:07 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220603 10:45:20 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220603 10:45:20  InnoDB: Starting shutdown...
+220603 10:45:24  InnoDB: Shutdown completed; log sequence number 0 342071891
+220603 10:45:24 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220603 10:45:47  InnoDB: Started; log sequence number 0 342071891
+220603 10:45:47 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220607  9:33:01 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220607  9:33:01  InnoDB: Starting shutdown...
+220607  9:33:05  InnoDB: Shutdown completed; log sequence number 0 342071901
+220607  9:33:05 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220607  9:33:34  InnoDB: Started; log sequence number 0 342071901
+220607  9:33:34 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220607  9:33:56 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220607  9:33:56  InnoDB: Starting shutdown...
+220607  9:33:58  InnoDB: Shutdown completed; log sequence number 0 342071901
+220607  9:33:58 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220607  9:34:20  InnoDB: Started; log sequence number 0 342071901
+220607  9:34:20 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220607 15:12:04 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220607 15:12:04  InnoDB: Starting shutdown...
+220607 15:12:05  InnoDB: Shutdown completed; log sequence number 0 342080625
+220607 15:12:05 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220608  8:15:20  InnoDB: Started; log sequence number 0 342080625
+220608  8:15:20 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220609  6:51:29 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220609  6:51:29  InnoDB: Starting shutdown...
+220609  6:51:30  InnoDB: Shutdown completed; log sequence number 0 342082007
+220609  6:51:30 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220609  8:30:52  InnoDB: Started; log sequence number 0 342082007
+220609  8:30:52 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220613  9:22:23  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+220613  9:22:23  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 342086521.
+InnoDB: Doing recovery: scanned up to log sequence number 0 342086521
+220613  9:22:23  InnoDB: Started; log sequence number 0 342086521
+220613  9:22:23 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220615  8:25:12  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+220615  8:25:12  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 342090517.
+InnoDB: Doing recovery: scanned up to log sequence number 0 342090517
+220615  8:25:12  InnoDB: Started; log sequence number 0 342090517
+220615  8:25:12 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220615  8:25:26 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220615  8:25:26  InnoDB: Starting shutdown...
+220615  8:25:28  InnoDB: Shutdown completed; log sequence number 0 342090517
+220615  8:25:28 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220615  8:27:52  InnoDB: Started; log sequence number 0 342090517
+220615  8:27:52 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220622  9:01:53 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220622  9:01:53  InnoDB: Starting shutdown...
+220622  9:01:55  InnoDB: Shutdown completed; log sequence number 0 342095381
+220622  9:01:55 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220622  9:02:26  InnoDB: Started; log sequence number 0 342095381
+220622  9:02:26 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220624  8:19:00 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220624  8:19:00  InnoDB: Starting shutdown...
+220624  8:19:03  InnoDB: Shutdown completed; log sequence number 0 342104724
+220624  8:19:03 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220624  8:19:21  InnoDB: Started; log sequence number 0 342104724
+220624  8:19:21 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220624 10:31:07 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220624 10:31:07  InnoDB: Starting shutdown...
+220624 10:31:08  InnoDB: Shutdown completed; log sequence number 0 342109877
+220624 10:31:08 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220624 10:31:42  InnoDB: Started; log sequence number 0 342109877
+220624 10:31:42 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220625 13:13:33  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+220625 13:13:33  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 342109887.
+InnoDB: Doing recovery: scanned up to log sequence number 0 342109887
+220625 13:13:33  InnoDB: Started; log sequence number 0 342109887
+220625 13:13:33 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220625 13:14:24 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220625 13:14:24  InnoDB: Starting shutdown...
+220625 13:14:25  InnoDB: Shutdown completed; log sequence number 0 342109887
+220625 13:14:25 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220625 13:14:47  InnoDB: Started; log sequence number 0 342109887
+220625 13:14:47 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220625 13:59:18  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+220625 13:59:18  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 342110567.
+InnoDB: Doing recovery: scanned up to log sequence number 0 342110567
+220625 13:59:18  InnoDB: Started; log sequence number 0 342110567
+220625 13:59:18 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220705  8:35:36 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220705  8:35:36  InnoDB: Starting shutdown...
+220705  8:35:39  InnoDB: Shutdown completed; log sequence number 0 342156449
+220705  8:35:39 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220705  8:35:59  InnoDB: Started; log sequence number 0 342156449
+220705  8:35:59 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220706 10:42:31 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220706 10:42:31  InnoDB: Starting shutdown...
+220706 10:42:32  InnoDB: Shutdown completed; log sequence number 0 342166814
+220706 10:42:32 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220706 10:42:51  InnoDB: Started; log sequence number 0 342166814
+220706 10:42:51 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220712  8:20:37 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220712  8:20:37  InnoDB: Starting shutdown...
+220712  8:20:38  InnoDB: Shutdown completed; log sequence number 0 342166824
+220712  8:20:38 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220712  8:21:00  InnoDB: Started; log sequence number 0 342166824
+220712  8:21:00 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220714  9:53:00 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220714  9:53:00  InnoDB: Starting shutdown...
+220714  9:53:03  InnoDB: Shutdown completed; log sequence number 0 342178280
+220714  9:53:03 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220714  9:53:26  InnoDB: Started; log sequence number 0 342178280
+220714  9:53:26 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220721 10:26:32  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+220721 10:26:33  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 342183008.
+InnoDB: Doing recovery: scanned up to log sequence number 0 342183008
+220721 10:26:33  InnoDB: Started; log sequence number 0 342183008
+220721 10:26:33 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220726  8:44:50 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220726  8:44:50  InnoDB: Starting shutdown...
+220726  8:44:52  InnoDB: Shutdown completed; log sequence number 0 342190924
+220726  8:44:52 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220726  8:45:12  InnoDB: Started; log sequence number 0 342190924
+220726  8:45:12 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220728 10:35:16 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220728 10:35:16  InnoDB: Starting shutdown...
+220728 10:35:18  InnoDB: Shutdown completed; log sequence number 0 342198003
+220728 10:35:18 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220728 10:35:42  InnoDB: Started; log sequence number 0 342198003
+220728 10:35:42 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220801  9:49:08 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220801  9:49:08  InnoDB: Starting shutdown...
+220801  9:49:10  InnoDB: Shutdown completed; log sequence number 0 342199423
+220801  9:49:10 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220801  9:52:07  InnoDB: Started; log sequence number 0 342199423
+220801  9:52:07 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220801 10:03:04 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220801 10:03:04  InnoDB: Starting shutdown...
+220801 10:03:06  InnoDB: Shutdown completed; log sequence number 0 342199423
+220801 10:03:06 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220801 10:03:27  InnoDB: Started; log sequence number 0 342199423
+220801 10:03:27 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220802  8:17:19 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220802  8:17:19  InnoDB: Starting shutdown...
+220802  8:17:20  InnoDB: Shutdown completed; log sequence number 0 342199423
+220802  8:17:20 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220802  8:17:42  InnoDB: Started; log sequence number 0 342199423
+220802  8:17:42 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220804  8:13:25 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220804  8:13:25  InnoDB: Starting shutdown...
+220804  8:13:26  InnoDB: Shutdown completed; log sequence number 0 342204132
+220804  8:13:26 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220804  8:13:50  InnoDB: Started; log sequence number 0 342204132
+220804  8:13:50 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220805 13:11:57 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220805 13:11:57  InnoDB: Starting shutdown...
+220805 13:11:59  InnoDB: Shutdown completed; log sequence number 0 342211307
+220805 13:11:59 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220805 13:12:21  InnoDB: Started; log sequence number 0 342211307
+220805 13:12:21 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220808  8:32:52 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220808  8:32:52  InnoDB: Starting shutdown...
+220808  8:32:56  InnoDB: Shutdown completed; log sequence number 0 342213002
+220808  8:32:56 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220808  8:33:14  InnoDB: Started; log sequence number 0 342213002
+220808  8:33:14 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220811 15:09:58 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220811 15:09:58  InnoDB: Starting shutdown...
+220811 15:10:00  InnoDB: Shutdown completed; log sequence number 0 342240693
+220811 15:10:00 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+
+220811 15:16:25  InnoDB: Started; log sequence number 0 342240693
+220811 15:16:25 [Note] c:\mysql\bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.21-community-nt'  socket: ''  port: 6969  MySQL Community Edition (GPL)
+220811 15:28:57 [Note] c:\mysql\bin\mysqld-nt.exe: Normal shutdown
+
+220811 15:28:57  InnoDB: Starting shutdown...
+220811 15:28:59  InnoDB: Shutdown completed; log sequence number 0 342240693
+220811 15:28:59 [Note] c:\mysql\bin\mysqld-nt.exe: Shutdown complete
+

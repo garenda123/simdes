@@ -1,0 +1,1177 @@
+ChangeSet
+  1.2105 06/04/26 18:26:26 kent@mysql.com +1 -0
+  configure.in:
+    Recloning, set back to 5.0.21
+
+  configure.in
+    1.384 06/04/26 18:26:04 kent@mysql.com +2 -2
+    Recloning, set back to 5.0.21
+
+ChangeSet
+  1.2104 06/04/26 11:55:26 elliot@mysql.com +1 -0
+  The fix for bug#17248 accidentally removed the sync_binlog variable.
+  This patch restores sync_binlog.
+
+  sql/set_var.cc
+    1.154 06/04/26 11:55:23 elliot@mysql.com +9 -0
+    restoring sync_binlog variable
+
+ChangeSet
+  1.2102 06/04/26 11:13:16 bell@sanja.is.com.ua +2 -0
+  fixed error message text
+
+  sql/share/errmsg.txt
+    1.64 06/04/26 11:13:11 bell@sanja.is.com.ua +1 -1
+    fixed error message text
+
+  mysql-test/r/view.result
+    1.154 06/04/26 11:13:11 bell@sanja.is.com.ua +1 -1
+    fixed error message text
+
+ChangeSet
+  1.1616.2543.2 06/04/26 11:15:09 aivanov@mysql.com +2 -0
+  Make innodb_mysql produce a non-empty output.
+
+  mysql-test/t/innodb_mysql.test
+    1.2 06/04/26 11:15:06 aivanov@mysql.com +4 -0
+    Make innodb_mysql produce a non-empty output.
+
+  mysql-test/r/innodb_mysql.result
+    1.2 06/04/26 11:15:06 aivanov@mysql.com +1 -1
+    Fix result.
+
+ChangeSet
+  1.2100 06/04/26 08:26:33 bpontz@mysql.com +1 -0
+  configure.in:
+    clone-off for 5.0.21
+
+  configure.in
+    1.383 06/04/26 08:24:29 bpontz@mysql.com +2 -2
+    clone-off for 5.0.21
+
+ChangeSet
+  1.2088.6.2 06/04/26 09:56:06 aivanov@mysql.com +1 -0
+  Merge mysql.com:/home/alexi/innodb/mysql-4.1-innodb-work
+  into  mysql.com:/home/alexi/innodb/mysql-5.0-ss492-work
+
+  mysql-test/t/innodb.test
+    1.132 06/04/26 09:56:00 aivanov@mysql.com +0 -0
+    Auto merged
+
+ChangeSet
+  1.1616.2543.1 06/04/26 09:51:57 aivanov@mysql.com +3 -0
+  Files innodb.[test|result] are to be used by Innobase only.
+   Use files innodb_mysql.[test|result] instead.
+
+  mysql-test/t/innodb_mysql.test
+    1.1 06/04/26 09:51:53 aivanov@mysql.com +1 -0
+    New BitKeeper file ``mysql-test/t/innodb_mysql.test''
+     Use this file instead of innodb.test.
+    
+
+  mysql-test/r/innodb_mysql.result
+    1.1 06/04/26 09:51:53 aivanov@mysql.com +1 -0
+    New BitKeeper file ``mysql-test/r/innodb_mysql.result''
+     Use this file instead of innodb.result.
+    
+
+  mysql-test/t/innodb_mysql.test
+    1.0 06/04/26 09:51:53 aivanov@mysql.com +0 -0
+    BitKeeper file /home/alexi/innodb/mysql-4.1-innodb-work/mysql-test/t/innodb_mysql.test
+
+  mysql-test/t/innodb.test
+    1.62.1.18 06/04/26 09:51:53 aivanov@mysql.com +13 -0
+    This file is to be used by Innobase only.
+
+  mysql-test/r/innodb_mysql.result
+    1.0 06/04/26 09:51:53 aivanov@mysql.com +0 -0
+    BitKeeper file /home/alexi/innodb/mysql-4.1-innodb-work/mysql-test/r/innodb_mysql.result
+
+ChangeSet
+  1.2099 06/04/25 22:39:59 serg@sergbook.mysql.com +1 -0
+  after merge
+
+  sql/sql_parse.cc
+    1.542 06/04/25 22:38:53 serg@sergbook.mysql.com +2 -2
+    after merge
+
+ChangeSet
+  1.2098 06/04/25 21:32:30 serg@sergbook.mysql.com +1 -0
+  Merge sergbook.mysql.com:/usr/home/serg/Abk/mysql-4.1
+  into sergbook.mysql.com:/usr/home/serg/Abk/mysql-5.0
+
+  sql/sql_parse.cc
+    1.541 06/04/25 21:32:25 serg@sergbook.mysql.com +0 -0
+    Auto merged
+
+ChangeSet
+  1.2088.6.1 06/04/26 07:50:29 aivanov@mysql.com +1 -0
+  Applied innodb-5.0-ss492 snapshot.
+   Fixed BUG#19217 "dict_load_indexes() may read the delete-mark incorrectly".
+
+  innobase/dict/dict0load.c
+    1.43 06/04/26 07:50:25 aivanov@mysql.com +1 -1
+    Applied innodb-5.0-ss492 snapshot.
+     dict_load_indexes(): pass comp=0 to rec_get_deleted_flag(), because
+     SYS_INDEXES always is in ROW_FORMAT=REDUNDANT (Bug #19217).
+
+ChangeSet
+  1.1616.2144.111 06/04/25 17:12:06 serg@sergbook.mysql.com +1 -0
+  after merge fix
+
+  sql/sql_parse.cc
+    1.271.1.208 06/04/25 17:11:28 serg@sergbook.mysql.com +3 -3
+    after merge fix
+
+ChangeSet
+  1.2097 06/04/26 01:21:33 sergefp@mysql.com +1 -0
+  Fix compile failure on Win32
+
+  sql/item_cmpfunc.h
+    1.124 06/04/26 01:21:24 sergefp@mysql.com +1 -1
+    Fix compile failure on Win32
+
+ChangeSet
+  1.1616.2144.110 06/04/25 14:06:04 serg@sergbook.mysql.com +1 -0
+  merged
+
+  sql/sql_parse.cc
+    1.271.1.207 06/04/25 14:06:00 serg@sergbook.mysql.com +18 -16
+    merged
+
+ChangeSet
+  1.1346.1.829 06/04/25 13:37:33 serg@sergbook.mysql.com +1 -0
+  buffer overflow and information exposure bugs fixed
+  (reported by Stefano Di Paola)
+
+  sql/sql_parse.cc
+    1.218.44.7 06/04/25 13:37:30 serg@sergbook.mysql.com +15 -0
+    buffer overflow and information exposure bugs fixed
+    (reported by Stefano Di Paola)
+
+ChangeSet
+  1.2092.1.1 06/04/25 23:33:31 sergefp@mysql.com +6 -0
+  BUG#15872: Don't run the range analyzer on "t1.keypart NOT IN (const1, ..., )", as that consumes
+  too much memory. Instead, either create the equvalent SEL_TREE manually, or create only two ranges that
+  strictly include the area to scan
+  (Note: just to re-iterate: increasing NOT_IN_IGNORE_THRESHOLD will make optimization run slower for big 
+  IN-lists, but the server will not run out of memory. O(N^2) memory use has been eliminated)
+
+  sql/opt_range.cc
+    1.209 06/04/25 23:33:26 sergefp@mysql.com +84 -9
+    BUG#15872: Don't run the range analyzer on "t1.keypart NOT IN (const1, ..., )", as that 
+    consumes too much memory. Instead, either 
+     A) create the equivalent SEL_TREE manually, making use of the fact that item_not_in->array
+        has an ordered IN-list, or
+     B) create only two ranges: (-inf|NULL) < X < min_value_from_in_list,  max_value_from_in_list < X
+    (Choose #B if the IN-list has > 10K elements) 
+
+  sql/item_cmpfunc.h
+    1.123 06/04/25 23:33:26 sergefp@mysql.com +74 -3
+    BUG#15872: Added in_vector::create_item(), in_vector::value_to_item() and their implementations in concrete
+    classes.
+
+  sql/item.h
+    1.192 06/04/25 23:33:26 sergefp@mysql.com +1 -0
+    UG#15872: Added Item_decimal::set_decimal_value()
+
+  sql/item.cc
+    1.216 06/04/25 23:33:26 sergefp@mysql.com +10 -0
+    BUG#15872: Added Item_decimal::set_decimal_value()
+
+  mysql-test/t/func_in.test
+    1.19 06/04/25 23:33:26 sergefp@mysql.com +93 -1
+    Testcase for BUG#15872
+
+  mysql-test/r/func_in.result
+    1.24 06/04/25 23:33:26 sergefp@mysql.com +102 -1
+    Testcase for BUG#15872
+
+ChangeSet
+  1.2095 06/04/25 10:04:46 stewart@mysql.com +1 -0
+  BUG#19340 small leak in ndbd
+  
+  small cleanup fixes in kernel/vm/Configuration
+
+  ndb/src/kernel/vm/Configuration.cpp
+    1.45 06/04/25 10:04:42 stewart@mysql.com +8 -0
+    clean up m_logLevel
+    
+    free the connectstring if we allocated one
+
+ChangeSet
+  1.2084.61.8 06/04/25 16:01:54 jonas@perch.ndb.mysql.com +2 -0
+  Merge perch.ndb.mysql.com:/home/jonas/src/41-work
+  into  perch.ndb.mysql.com:/home/jonas/src/50-work
+
+  ndb/src/kernel/blocks/dbtc/DbtcMain.cpp
+    1.92 06/04/25 16:01:51 jonas@perch.ndb.mysql.com +0 -0
+    Auto merged
+
+  ndb/src/kernel/blocks/dbtc/Dbtc.hpp
+    1.34 06/04/25 16:01:50 jonas@perch.ndb.mysql.com +0 -0
+    Auto merged
+
+ChangeSet
+  1.1616.2530.3 06/04/25 16:01:08 jonas@perch.ndb.mysql.com +2 -0
+  ndb - bug#18597
+    Handle early abort of scan, so that resources are correctly freed
+
+  ndb/src/kernel/blocks/dbtc/DbtcMain.cpp
+    1.42.1.23 06/04/25 16:01:06 jonas@perch.ndb.mysql.com +25 -12
+    Handle early abort so that require on running.empty() does not fire
+
+  ndb/src/kernel/blocks/dbtc/Dbtc.hpp
+    1.18.1.6 06/04/25 16:01:06 jonas@perch.ndb.mysql.com +3 -2
+    Handle early abort
+
+ChangeSet
+  1.2084.104.2 06/04/25 12:40:31 mskold@mysql.com +1 -0
+  Fixed memleak detected by valgrind
+
+  sql/ha_ndbcluster.cc
+    1.244 06/04/25 12:40:16 mskold@mysql.com +3 -1
+    Fixed memleak detected by valgrind
+
+ChangeSet
+  1.2088.1.18 06/04/24 23:51:47 knielsen@mysql.com +4 -0
+  Merge mysql.com:/usr/local/mysql/mysql-4.1
+  into  mysql.com:/usr/local/mysql/mysql-5.0-mtr-fix
+
+  mysql-test/r/case.result
+    1.25 06/04/24 23:51:44 knielsen@mysql.com +0 -0
+    SCCS merged
+
+  sql/item_cmpfunc.cc
+    1.200 06/04/24 23:50:25 knielsen@mysql.com +0 -0
+    Auto merged
+
+  mysql-test/t/case.test
+    1.19 06/04/24 23:50:25 knielsen@mysql.com +0 -0
+    Auto merged
+
+  mysql-test/mysql-test-run.pl
+    1.89 06/04/24 23:50:25 knielsen@mysql.com +0 -0
+    Auto merged
+
+ChangeSet
+  1.1616.2144.109 06/04/24 15:34:01 knielsen@mysql.com +1 -0
+  Fix typo in mysql-test-run.pl (not caught by aotupush since it uses mysql-test-run.sh).
+
+  mysql-test/mysql-test-run.pl
+    1.8.9.5 06/04/24 15:33:44 knielsen@mysql.com +1 -1
+    Fix typo.
+
+ChangeSet
+  1.1616.2542.1 06/04/23 19:26:56 paul@polar.kitebird.com +1 -0
+  myisam_ftdump.c:
+    myisam_ftdump options: --help first, then rest in
+    lexical order.
+
+  myisam/myisam_ftdump.c
+    1.38 06/04/23 19:25:28 paul@polar.kitebird.com +7 -7
+    myisam_ftdump options: --help first, then rest in
+    lexical order.
+
+ChangeSet
+  1.2088.1.16 06/04/23 21:30:04 aelkin@mysql.com +1 -0
+  Merge mysql.com:/usr_rh9/home/elkin.rh9/MySQL/BARE/4.1
+  into  mysql.com:/usr_rh9/home/elkin.rh9/MySQL/Merge/5.0
+
+  sql/sql_base.cc
+    1.333 06/04/23 21:30:01 aelkin@mysql.com +0 -3
+    manual merge use local
+
+ChangeSet
+  1.2088.1.15 06/04/23 20:06:30 aelkin@mysql.com +3 -0
+  Merge mysql.com:/net/nb/home/elkin/MySQL/FIXES/5.0-bug17263-temp_drop
+  into  mysql.com:/usr_rh9/home/elkin.rh9/MySQL/Merge/5.0
+
+  sql/sql_base.cc
+    1.332 06/04/23 20:06:24 aelkin@mysql.com +2 -13
+    Auto merged
+
+  mysql-test/t/rpl_temporary.test
+    1.18 06/04/23 20:06:24 aelkin@mysql.com +0 -1
+    Auto merged
+
+  mysql-test/r/rpl_temporary.result
+    1.23 06/04/23 20:06:24 aelkin@mysql.com +0 -0
+    Auto merged
+
+ChangeSet
+  1.2084.106.1 06/04/23 19:59:43 aelkin@mysql.com +3 -0
+  Bug#17263 temporary tables and replication
+  The fix refines the algorithm of generating DROPs for binlog. 
+  Temp tables with common pseudo_thread_id are clustered into one query. 
+  Consequently one replication event per pseudo_thread_id is generated.
+
+  sql/sql_base.cc
+    1.330.1.1 06/04/23 19:59:26 aelkin@mysql.com +122 -38
+    close_temporary_tables is rewritten to generate sequence of DROP temprorary tables with common preudo_thread_id stored in temp table definition.
+
+  mysql-test/t/rpl_temporary.test
+    1.16.1.1 06/04/23 19:59:22 aelkin@mysql.com +29 -1
+    Creating temp tables associated with a set of pseudo_thread_id values within a connection.
+    The aim is to see that slave digest master's binlog consisting of DROP temprorary tables.
+
+  mysql-test/r/rpl_temporary.result
+    1.21.1.1 06/04/23 19:59:19 aelkin@mysql.com +14 -0
+    results
+
+ChangeSet
+  1.1616.2531.12 06/04/23 19:42:26 aelkin@mysql.com +1 -0
+  Bug#17263: incorrect DROP query in temporary tables replication
+  accounting non-ai32 in tmpkeyval. This changeset is supposed to be specifically for 4.1.
+  Another changeset is going to push into 5. 
+
+  sql/sql_base.cc
+    1.145.1.122 06/04/23 19:42:21 aelkin@mysql.com +3 -4
+    correction due to uint4korr definition: can not sizeof on not ia32.
+
+ChangeSet
+  1.2088.1.14 06/04/23 12:10:56 aelkin@mysql.com +2 -0
+  manual merge use local
+
+ChangeSet
+  1.2088.1.13 06/04/23 12:08:54 aelkin@mysql.com +1 -0
+  Merge mysql.com:/usr_rh9/home/elkin.rh9/MySQL/BARE/4.1
+  into  mysql.com:/usr_rh9/home/elkin.rh9/MySQL/Merge/5.0
+
+ChangeSet
+  1.2088.1.12 06/04/23 12:03:25 aelkin@mysql.com +2 -0
+  Merge mysql.com:/usr_rh9/home/elkin.rh9/MySQL/BARE/4.1
+  into  mysql.com:/usr_rh9/home/elkin.rh9/MySQL/Merge/5.0
+
+ChangeSet
+  1.2088.1.11 06/04/23 08:11:33 konstantin@mysql.com +2 -0
+  Merge mysql.com:/opt/local/work/mysql-5.0-root
+  into  mysql.com:/opt/local/work/mysql-5.0-runtime-merge
+
+ChangeSet
+  1.2088.1.10 06/04/23 13:32:37 aivanov@mysql.com +2 -0
+  Merge aivanov@bk-internal.mysql.com:/home/bk/mysql-5.0
+  into  mysql.com:/home/alexi/innodb/mysql-5.0
+
+  mysql-test/t/innodb.test
+    1.131 06/04/23 13:32:33 aivanov@mysql.com +0 -0
+    SCCS merged
+
+  mysql-test/r/innodb.result
+    1.161 06/04/23 13:32:32 aivanov@mysql.com +0 -0
+    SCCS merged
+
+ChangeSet
+  1.1616.2531.11 06/04/23 11:55:08 aelkin@mysql.com +3 -0
+  Bug#17263 temporary tables and replication
+    Backporting a changeset made for 5.0. Comments from there:
+  
+    The fix refines the algorithm of generating DROPs for binlog.
+    Temp tables with common pseudo_thread_id are clustered into one query.
+    Consequently one replication event per pseudo_thread_id is generated.
+  
+  
+
+  sql/sql_base.cc
+    1.331 06/04/23 12:10:52 aelkin@mysql.com +15 -121
+    manual merge use local
+
+  mysql-test/t/rpl_temporary.test
+    1.17 06/04/23 12:10:52 aelkin@mysql.com +1 -27
+    manual merge use local
+
+  mysql-test/r/rpl_temporary.result
+    1.22 06/04/23 12:08:50 aelkin@mysql.com +0 -14
+    manual merge use local
+
+  sql/item_strfunc.cc
+    1.265 06/04/23 12:03:19 aelkin@mysql.com +0 -0
+    Auto merged
+
+  mysql-test/t/func_compress.test
+    1.13 06/04/23 12:03:19 aelkin@mysql.com +0 -0
+    Auto merged
+
+  sql/sql_base.cc
+    1.145.1.121 06/04/23 11:55:04 aelkin@mysql.com +121 -40
+    change in drop temprorary tables alg in close_temporary_tables.
+    
+    
+
+  mysql-test/t/rpl_temporary.test
+    1.13.1.2 06/04/23 11:55:04 aelkin@mysql.com +27 -1
+    test to generate problematic drop in binlog to feed it to restarting slave
+    to see no stop.
+
+  mysql-test/r/rpl_temporary.result
+    1.3.1.10 06/04/23 11:55:04 aelkin@mysql.com +14 -0
+    results changed
+
+  sql/sql_yacc.yy
+    1.466 06/04/23 08:11:24 konstantin@mysql.com +0 -0
+    Auto merged
+
+  sql/item_func.cc
+    1.281 06/04/23 08:11:24 konstantin@mysql.com +0 -0
+    Auto merged
+
+ChangeSet
+  1.2084.105.1 06/04/22 11:54:25 dlenev@mysql.com +5 -0
+  Fix for bug#15153 "CONVERT_TZ() is not allowed in all places in VIEWs".
+  
+  Error was emitted when one tried to select information from view which used
+  merge algorithm and which also had CONVERT_TZ() function in its select list.
+  
+  This bug was caused by wrong assumption that global table list for view
+  which is handled using merge algorithm begins from tables belonging to
+  the main select of this view. Nowadays the above assumption is not true only
+  when one uses convert_tz() function in view's select list, but in future
+  other cases may be added (for example we may support merging of views
+  with subqueries in select list one day). Relying on this false assumption
+  led to the usage of wrong table list for field lookups and therefor errors. 
+  
+  With this fix we explicitly use pointer to the beginning of main select's
+  table list.
+
+  sql/sql_view.cc
+    1.86 06/04/22 11:54:21 dlenev@mysql.com +12 -4
+    mysql_make_view():
+      We should not assume that global table list for view which is handled using
+      merge algorithm begins from tables belonging to the main select of this
+      view. Nowadays the above assumption is not true only when one uses
+      convert_tz() function in view's select list, but in future other cases
+      may be added (for example we may support merging of views with subqueries
+      in select list one day). So let us instead explicitly use pointer to the
+      beginning of main select's table list.
+
+  mysql-test/t/view.test
+    1.142 06/04/22 11:54:21 dlenev@mysql.com +27 -0
+    Added test case for bug#15153 "CONVERT_TZ() is not allowed in all places in 
+    VIEWs".
+
+  mysql-test/t/timezone_grant.test
+    1.5 06/04/22 11:54:21 dlenev@mysql.com +31 -0
+    Added additional test case for bug#15153 "CONVERT_TZ() is not allowed in
+    all places in VIEWs" that checks that usage of CONVERT_TZ() function in view
+    does not require additional privileges.
+
+  mysql-test/r/view.result
+    1.153 06/04/22 11:54:21 dlenev@mysql.com +26 -0
+    Added test case for bug#15153 "CONVERT_TZ() is not allowed in all places in 
+    VIEWs".
+
+  mysql-test/r/timezone_grant.result
+    1.4 06/04/22 11:54:21 dlenev@mysql.com +17 -0
+    Added additional test case for bug#15153 "CONVERT_TZ() is not allowed in
+    all places in VIEWs" that checks that usage of CONVERT_TZ() function in view
+    does not require additional privileges.
+
+ChangeSet
+  1.2088.1.9 06/04/21 20:24:52 kent@mysql.com +1 -0
+  innodb_unsafe_binlog-master.opt:
+    Make InnoDB option "loose", as the server might be
+    started with this option just to find out the test
+    is to be skipped in the configuration (bug#17359)
+
+  mysql-test/t/innodb_unsafe_binlog-master.opt
+    1.2 06/04/21 20:22:01 kent@mysql.com +1 -1
+    Make InnoDB option "loose", as the server might be
+    started with this option just to find out the test
+    is to be skipped in the configuration (bug#17359)
+
+ChangeSet
+  1.2088.1.8 06/04/21 20:04:13 kent@mysql.com +2 -0
+  Merge
+
+  configure.in
+    1.382 06/04/21 20:04:05 kent@mysql.com +0 -1
+
+  client/mysql.cc
+    1.201 06/04/21 19:51:59 kent@mysql.com +0 -0
+    Auto merged
+
+ChangeSet
+  1.2088.1.6 06/04/21 08:19:38 igor@rurik.mysql.com +4 -0
+  Post merge fixes
+
+  sql/sql_yacc.yy
+    1.464.1.2 06/04/21 08:19:31 igor@rurik.mysql.com +1 -1
+    Post merge fixes
+
+  sql/sql_union.cc
+    1.132 06/04/21 08:19:31 igor@rurik.mysql.com +1 -1
+    Post merge fixes
+
+  sql/sql_parse.cc
+    1.540 06/04/21 08:19:31 igor@rurik.mysql.com +3 -2
+    Post merge fixes
+
+  mysql-test/r/func_gconcat.result
+    1.58 06/04/21 08:19:31 igor@rurik.mysql.com +10 -0
+    Post merge fixes
+
+ChangeSet
+  1.2084.100.6 06/04/21 18:55:04 kroki@mysql.com +5 -0
+  Bug#15728: LAST_INSERT_ID function inside a stored function returns 0
+  
+  Do not reset value of LAST_INSERT_ID() in sub-statement.
+
+  sql/sql_class.cc
+    1.232 06/04/21 18:54:58 kroki@mysql.com +3 -2
+    Do not reset value of LAST_INSERT_ID() in sub-statement.
+
+  mysql-test/t/sp.test
+    1.185 06/04/21 18:54:57 kroki@mysql.com +25 -0
+    Add test case for bug#15728.
+
+  mysql-test/t/rpl_insert_id.test
+    1.15 06/04/21 18:54:57 kroki@mysql.com +70 -0
+    Add test case for bug#15728.
+
+  mysql-test/r/sp.result
+    1.197 06/04/21 18:54:57 kroki@mysql.com +17 -0
+    Add result for bug#15728.
+
+  mysql-test/r/rpl_insert_id.result
+    1.14 06/04/21 18:54:56 kroki@mysql.com +58 -0
+    Add result for bug#15728.
+
+ChangeSet
+  1.2084.100.5 06/04/21 14:30:44 pem@mysql.com +1 -0
+  Post-push fix for BUG#18344: DROP DATABASE does not drop associated routines
+  Fixed windows compile error in sql/sp.cc (missing cast to byte*)
+
+  sql/sp.cc
+    1.111 06/04/21 14:30:40 pem@mysql.com +2 -2
+    Fixed windows compile error. (missing cast to byte*)
+
+ChangeSet
+  1.2088.4.1 06/04/21 14:02:21 tomas@poseidon.ndb.mysql.com +1 -0
+  Merge tulin@bk-internal.mysql.com:/home/bk/mysql-5.0
+  into  poseidon.ndb.mysql.com:/home/tomas/mysql-5.0
+
+  mysql-test/mysql-test-run.sh
+    1.302 06/04/21 14:02:12 tomas@poseidon.ndb.mysql.com +0 -0
+    Auto merged
+
+ChangeSet
+  1.2084.104.1 06/04/21 13:53:48 tomas@poseidon.ndb.mysql.com +4 -0
+  Bug #17230 Can't change character-sets-dir for ndbd
+
+  ndb/include/util/ndb_opts.h
+    1.14 06/04/21 13:53:41 tomas@poseidon.ndb.mysql.com +5 -1
+    Bug #17230 Can't change character-sets-dir for ndbd
+
+  mysql-test/ndb/ndbcluster.sh
+    1.44 06/04/21 13:53:41 tomas@poseidon.ndb.mysql.com +5 -1
+    Bug #17230 Can't change character-sets-dir for ndbd
+
+  mysql-test/mysql-test-run.sh
+    1.300.1.1 06/04/21 13:53:41 tomas@poseidon.ndb.mysql.com +1 -1
+    Bug #17230 Can't change character-sets-dir for ndbd
+
+  mysql-test/mysql-test-run.pl
+    1.88 06/04/21 13:53:41 tomas@poseidon.ndb.mysql.com +2 -1
+    Bug #17230 Can't change character-sets-dir for ndbd
+
+ChangeSet
+  1.2084.102.2 06/04/21 10:17:55 mskold@mysql.com +1 -0
+  Fix for bug#19088: NDBAPI: Segfault in NdbIndexScanOperation::setBound(...)
+
+  ndb/src/ndbapi/NdbScanOperation.cpp
+    1.69 06/04/21 10:17:41 mskold@mysql.com +5 -0
+    Fix for bug#19088: NDBAPI: Segfault in NdbIndexScanOperation::setBound(...)
+
+ChangeSet
+  1.2088.1.5 06/04/21 00:36:20 igor@rurik.mysql.com +8 -0
+  Merge rurik.mysql.com:/home/igor/dev/mysql-4.1-0
+  into  rurik.mysql.com:/home/igor/dev/mysql-5.0-0
+
+  sql/sql_union.cc
+    1.131 06/04/21 00:36:14 igor@rurik.mysql.com +1 -2
+    Manual merge
+
+  sql/sql_parse.cc
+    1.539 06/04/21 00:36:14 igor@rurik.mysql.com +13 -12
+    Manual merge
+
+  sql/sql_lex.h
+    1.215 06/04/21 00:36:14 igor@rurik.mysql.com +0 -0
+    Manual merge
+
+  mysql-test/t/order_by.test
+    1.36 06/04/21 00:36:14 igor@rurik.mysql.com +14 -14
+    Manual merge
+
+  mysql-test/t/func_gconcat.test
+    1.44 06/04/21 00:36:14 igor@rurik.mysql.com +10 -0
+    Manual merge
+
+ChangeSet
+  1.1616.2508.2 06/04/21 11:48:00 ramil@mysql.com +1 -0
+  Bug #17896: MIN of CASE WHEN returns non-minimum value!
+  - after review fixes
+
+  sql/item_cmpfunc.cc
+    1.111.23.4 06/04/21 11:47:53 ramil@mysql.com +5 -1
+    Bug #17896: MIN of CASE WHEN returns non-minimum value!
+    - after review fixes.
+
+  sql/sql_yacc.yy
+    1.464.1.1 06/04/20 23:28:57 igor@rurik.mysql.com +0 -0
+    Auto merged
+
+  sql/sql_select.cc
+    1.407 06/04/20 23:28:57 igor@rurik.mysql.com +0 -0
+    Auto merged
+
+  mysql-test/r/order_by.result
+    1.51 06/04/20 23:28:57 igor@rurik.mysql.com +0 -0
+    Auto merged
+
+ChangeSet
+  1.1616.2540.1 06/04/20 22:15:38 igor@rurik.mysql.com +7 -0
+  Fixed bug #18767.
+  The bug caused wrong result sets for union constructs of the form
+  (SELECT ... ORDER BY order_list1 [LIMIT n]) ORDER BY order_list2.
+  For such queries order lists were concatenated and limit clause was
+  completely neglected. 
+
+  sql/sql_yacc.yy
+    1.203.1.195 06/04/20 22:15:34 igor@rurik.mysql.com +21 -3
+    Fixed bug #18767.
+    Changed the condition at which a SELECT is treated as part of a UNION.
+    The SELECT in 
+    (SELECT ... ORDER BY order_list1 [LIMIT n]) ORDER BY order_list2 
+    now is handled in the same way as the first SELECT in a UNION
+    sequence. In the same way is handled the SELECT in
+    (SELECT ... LIMIT n) ORDER BY order list.
+    Yet if there is neither ORDER BY nor LIMIT in the single-select
+    union construct
+    (SELECT ...) ORDER BY order_list
+    then it is still handled as simple select with an order clause.
+
+  sql/sql_union.cc
+    1.74.1.71 06/04/20 22:15:34 igor@rurik.mysql.com +1 -1
+    Fixed bug #18767.
+    Changed the condition at which a SELECT is treated as part of a UNION.
+    The SELECT in 
+    (SELECT ... ORDER BY order_list1 [LIMIT n]) ORDER BY order_list2 
+    now is handled in the same way as the first SELECT in a UNION
+    sequence.
+
+  sql/sql_select.cc
+    1.216.125.3 06/04/20 22:15:34 igor@rurik.mysql.com +1 -1
+    Fixed bug #18767.
+    Changed the condition on which a SELECT is treated as part of a UNION.
+    The SELECT in 
+    (SELECT ... ORDER BY order_list1 [LIMIT n]) ORDER BY order_list2 
+    now is handled in the same way as the first SELECT in a UNION
+    sequence.  
+
+  sql/sql_parse.cc
+    1.271.1.206 06/04/20 22:15:34 igor@rurik.mysql.com +57 -17
+    Fixed bug #18767.
+    Placed the code the created a fake SELECT_LEX into a separate function.
+
+  sql/sql_lex.h
+    1.102.41.1 06/04/20 22:15:34 igor@rurik.mysql.com +1 -0
+    Fixed bug #18767.
+    Placed the code the created a fake SELECT_LEX into a separate function.  
+
+  mysql-test/t/order_by.test
+    1.29.1.5 06/04/20 22:15:34 igor@rurik.mysql.com +14 -0
+    Added a test case for bug #18767.
+
+  mysql-test/r/order_by.result
+    1.40.1.7 06/04/20 22:15:34 igor@rurik.mysql.com +32 -0
+    Added a test case for bug #18767.
+
+ChangeSet
+  1.2084.103.3 06/04/21 01:37:31 aivanov@mysql.com +2 -0
+  Restoring changes erroneously removed by applying
+   the innodb-5.0-ss476 snapshot.
+
+  mysql-test/t/innodb.test
+    1.129.1.2 06/04/21 01:37:26 aivanov@mysql.com +12 -0
+    Restoring changes erroneously removed by applying
+     the innodb-5.0-ss476 snapshot.
+
+  mysql-test/r/innodb.result
+    1.159.1.2 06/04/21 01:37:26 aivanov@mysql.com +10 -1
+    Restoring changes erroneously removed by applying
+     the innodb-5.0-ss476 snapshot.
+
+ChangeSet
+  1.2084.103.2 06/04/21 01:07:37 aivanov@mysql.com +11 -0
+  Applied innodb-5.0-ss476 snapshot.
+   Fix BUG#18934: "InnoDB crashes when table uses column like DB_ROW_ID".
+   Also, fix memory leaks in row_create_table_for_mysql() in rare
+   corner cases.
+
+  mysql-test/t/innodb.test
+    1.129.1.1 06/04/21 01:07:33 aivanov@mysql.com +3 -11
+    Applied innodb-5.0-ss476 snapshot.
+     Fix result for test case for Bug#18934.
+     (Removed test case for Bug#14360 is to be restored by the next cset).
+
+  mysql-test/r/innodb.result
+    1.159.1.1 06/04/21 01:07:33 aivanov@mysql.com +3 -10
+    Applied innodb-5.0-ss476 snapshot.
+     Fix result for test case for Bug#18934.
+     (Other changes are to be restored by the next cset).
+
+  innobase/row/row0mysql.c
+    1.119 06/04/21 01:07:33 aivanov@mysql.com +18 -0
+    Applied innodb-5.0-ss476 snapshot.
+     Refuse tables that use reserved column names (Bug#18934).
+
+  innobase/log/log0recv.c
+    1.52 06/04/21 01:07:32 aivanov@mysql.com +3 -3
+    Applied innodb-5.0-ss476 snapshot.
+
+  innobase/include/univ.i
+    1.48 06/04/21 01:07:32 aivanov@mysql.com +3 -0
+    Applied innodb-5.0-ss476 snapshot.
+
+  innobase/include/dict0mem.h
+    1.27 06/04/21 01:07:32 aivanov@mysql.com +7 -0
+    Applied innodb-5.0-ss476 snapshot.
+     Add dict_mem_table_free(), use it instead of duplicating
+     the code everywhere.
+
+  innobase/include/dict0dict.h
+    1.39 06/04/21 01:07:32 aivanov@mysql.com +9 -0
+    Applied innodb-5.0-ss476 snapshot.
+     Refuse tables that use reserved column name (Bug#18934).
+
+  innobase/ibuf/ibuf0ibuf.c
+    1.41 06/04/21 01:07:32 aivanov@mysql.com +3 -3
+    Applied innodb-5.0-ss476 snapshot.
+
+  innobase/dict/dict0mem.c
+    1.19 06/04/21 01:07:32 aivanov@mysql.com +18 -0
+    Applied innodb-5.0-ss476 snapshot.
+     Add dict_mem_table_free(), use it instead of duplicating
+     the code everywhere.
+
+  innobase/dict/dict0load.c
+    1.42 06/04/21 01:07:32 aivanov@mysql.com +11 -6
+    Applied innodb-5.0-ss476 snapshot.
+     dict_load_table(): Refuse to load tables with other TYPE
+     than DICT_TABLE_ORDINARY.
+
+  innobase/dict/dict0dict.c
+    1.75 06/04/21 01:07:32 aivanov@mysql.com +34 -4
+    Applied innodb-5.0-ss476 snapshot.
+     Refuse tables that use reserved column names (Bug#18934).
+
+ChangeSet
+  1.2084.103.1 06/04/20 23:18:29 aivanov@mysql.com +6 -0
+  Merge mysql.com:/home/alexi/innodb/mysql-4.1-work
+  into  mysql.com:/home/alexi/innodb/mysql-5.0-work
+   Null-merge.
+
+  innobase/row/row0mysql.c
+    1.118 06/04/20 23:18:25 aivanov@mysql.com +0 -14
+    Null-merge.
+
+  innobase/include/univ.i
+    1.47 06/04/20 23:18:25 aivanov@mysql.com +0 -3
+    Null-merge.
+
+  innobase/include/dict0mem.h
+    1.26 06/04/20 23:18:24 aivanov@mysql.com +0 -7
+    Null-merge.
+
+  innobase/include/dict0dict.h
+    1.38 06/04/20 23:18:24 aivanov@mysql.com +0 -9
+    Null-merge.
+
+  innobase/dict/dict0mem.c
+    1.18 06/04/20 23:18:24 aivanov@mysql.com +0 -15
+    Null-merge.
+
+  innobase/dict/dict0dict.c
+    1.74 06/04/20 23:18:24 aivanov@mysql.com +0 -34
+    Null-merge.
+
+ChangeSet
+  1.1616.2539.1 06/04/20 23:09:49 aivanov@mysql.com +6 -0
+  Applied innodb-4.1-ss22 snapshot.
+   Fix BUG#16814: "SHOW INNODB STATUS format error in LATEST FOREIGN KEY ERROR section"
+       Add a missing newline to the LAST FOREIGN KEY ERROR section in SHOW INNODB STATUS
+       output.
+   Fix BUG#18934: "InnoDB crashes when table uses column names like DB_ROW_ID".
+       Refuse tables that use reserved column names.
+
+  innobase/row/row0mysql.c
+    1.79.1.15 06/04/20 23:09:46 aivanov@mysql.com +14 -0
+    Applied innodb-4.1-ss22 snapshot.
+     Refuse tables that use reserved column names (Bug#18934).
+
+  innobase/include/univ.i
+    1.34.1.5 06/04/20 23:09:46 aivanov@mysql.com +3 -0
+    Applied innodb-4.1-ss22 snapshot.
+
+  innobase/include/dict0mem.h
+    1.22.1.1 06/04/20 23:09:46 aivanov@mysql.com +7 -0
+    Applied innodb-4.1-ss22 snapshot.
+     Refuse tables that use reserved column names (Bug#18934).
+
+  innobase/include/dict0dict.h
+    1.27.1.7 06/04/20 23:09:46 aivanov@mysql.com +9 -0
+    Applied innodb-4.1-ss22 snapshot.
+     Refuse tables that use reserved column names (Bug#18934).
+
+  innobase/dict/dict0mem.c
+    1.15.1.1 06/04/20 23:09:46 aivanov@mysql.com +15 -0
+    Applied innodb-4.1-ss22 snapshot.
+     Refuse tables that use reserved column names (Bug#18934).
+
+  innobase/dict/dict0dict.c
+    1.52.1.15 06/04/20 23:09:46 aivanov@mysql.com +34 -1
+    Applied innodb-4.1-ss22 snapshot.
+     dict_foreign_error_report(): Always print a newline after invoking
+      dict_print_info_on_foreign_key_in_create_format() (Bug#16814).
+     Refuse tables that use reserved column names (Bug#18934).
+
+ChangeSet
+  1.2088.1.4 06/04/20 19:43:02 mleich@mysql.com +1 -0
+  Post merge correction for the Changesset
+  Fixes for Bug#12429: Replication tests fail: "Slave_IO_Running" (?) differs related to MySQL 4.1
+  and Bug#16920 rpl_deadlock_innodb fails in show slave status (reported for MySQL 5.1)
+
+  mysql-test/r/rpl_deadlock.result
+    1.10 06/04/20 19:41:02 mleich@three.local.lan +6 -6
+    Updated result
+
+ChangeSet
+  1.2084.100.3 06/04/20 16:00:33 pem@mysql.com +1 -0
+  Merge mysql.com:/extern/mysql/bk/mysql-5.0-runtime
+  into  mysql.com:/extern/mysql/5.0/bug18949/mysql-5.0-runtime
+
+  sql/sql_yacc.yy
+    1.465 06/04/20 16:00:11 pem@mysql.com +0 -0
+    Auto merged
+
+ChangeSet
+  1.2084.102.1 06/04/20 12:06:22 mskold@mysql.com +6 -0
+  Fix for bug#19196: Attempt to create index on usupported field type gives wrong error code
+
+  ndb/src/ndbapi/NdbDictionaryImpl.cpp
+    1.87 06/04/20 12:05:53 mskold@mysql.com +11 -7
+    Fix for bug#19196: Attempt to create index on usupported field type gives wrong error code
+
+  ndb/src/kernel/blocks/dbtux/DbtuxMeta.cpp
+    1.18 06/04/20 12:05:53 mskold@mysql.com +3 -2
+    Fix for bug#19196: Attempt to create index on usupported field type gives wrong error code
+
+  ndb/src/common/util/NdbSqlUtil.cpp
+    1.30 06/04/20 12:05:53 mskold@mysql.com +28 -24
+    Fix for bug#19196: Attempt to create index on usupported field type gives wrong error code
+
+  ndb/include/util/NdbSqlUtil.hpp
+    1.24 06/04/20 12:05:53 mskold@mysql.com +3 -3
+    Fix for bug#19196: Attempt to create index on usupported field type gives wrong error code
+
+  mysql-test/r/ndb_bitfield.result
+    1.6 06/04/20 12:05:53 mskold@mysql.com +2 -2
+    Fix for bug#19196: Attempt to create index on usupported field type gives wrong error code
+
+  ndb/include/kernel/signaldata/TupFrag.hpp
+    1.8 06/04/20 12:04:28 mskold@mysql.com +2 -1
+    Fix for bug#19196: Attempt to create index on usupported field type gives wrong error code
+
+ChangeSet
+  1.2088.1.1 06/04/20 13:34:14 evgen@moonbone.local +2 -0
+  func_gconcat.result, func_gconcat.test:
+    Remove duplicate test case for bug#14169
+
+  mysql-test/r/func_gconcat.result
+    1.57 06/04/20 13:33:34 evgen@moonbone.local +0 -10
+    Remove duplicate test case for bug#14169
+
+  mysql-test/t/func_gconcat.test
+    1.43 06/04/20 13:33:03 evgen@moonbone.local +0 -11
+    Remove duplicate test case for bug#14169
+
+ChangeSet
+  1.1616.2536.4 06/04/20 12:35:33 evgen@moonbone.local +1 -0
+  func_gconcat.test:
+    Clean up test case for bug#14169
+
+  mysql-test/t/func_gconcat.test
+    1.23.1.14 06/04/20 12:34:12 evgen@moonbone.local +0 -1
+    Clean up test case for bug#14169
+
+ChangeSet
+  1.2088 06/04/20 00:42:12 igor@rurik.mysql.com +5 -0
+  Post merge fix
+
+  sql/sql_select.cc
+    1.406 06/04/20 00:42:06 igor@rurik.mysql.com +6 -13
+    Post merge fix
+
+  sql/item_sum.h
+    1.102 06/04/20 00:42:06 igor@rurik.mysql.com +2 -2
+    Post merge fix
+
+  sql/item_sum.cc
+    1.175 06/04/20 00:42:06 igor@rurik.mysql.com +2 -2
+    Post merge fix
+
+  sql/item_func.cc
+    1.276.1.4 06/04/20 00:42:06 igor@rurik.mysql.com +1 -4
+    Post merge fix
+
+  mysql-test/r/func_gconcat.result
+    1.56 06/04/20 00:42:06 igor@rurik.mysql.com +1 -1
+    Post merge fix
+
+ChangeSet
+  1.2084.101.1 06/04/19 18:08:15 igor@rurik.mysql.com +12 -0
+  Merge rurik.mysql.com:/home/igor/dev/mysql-4.1-2
+  into  rurik.mysql.com:/home/igor/dev/mysql-5.0-0
+
+  sql/unireg.h
+    1.44 06/04/19 18:08:10 igor@rurik.mysql.com +0 -1
+    Manual merge
+
+  sql/sql_select.cc
+    1.405 06/04/19 18:08:10 igor@rurik.mysql.com +11 -8
+    Manual merge
+
+  sql/lock.cc
+    1.87 06/04/19 18:08:10 igor@rurik.mysql.com +1 -1
+    Manual merge
+
+  sql/item_sum.h
+    1.101 06/04/19 18:08:10 igor@rurik.mysql.com +0 -7
+    Manual merge
+
+  sql/item_func.cc
+    1.276.1.3 06/04/19 18:08:10 igor@rurik.mysql.com +3 -1
+    Manual merge
+
+  mysql-test/t/key_cache.test
+    1.18 06/04/19 18:08:10 igor@rurik.mysql.com +0 -0
+    Manual merge
+
+  mysql-test/t/func_gconcat.test
+    1.42 06/04/19 18:08:10 igor@rurik.mysql.com +0 -0
+    Manual merge
+
+  mysql-test/r/key_cache.result
+    1.17 06/04/19 18:08:10 igor@rurik.mysql.com +0 -0
+    Manual merge
+
+  mysql-test/r/func_gconcat.result
+    1.55 06/04/19 18:08:10 igor@rurik.mysql.com +0 -0
+    Manual merge
+
+  ndb/src/kernel/blocks/ndbcntr/NdbcntrInit.cpp
+    1.9 06/04/19 16:22:53 igor@rurik.mysql.com +0 -0
+    Auto merged
+
+  ndb/src/kernel/SimBlockList.cpp
+    1.9 06/04/19 16:22:53 igor@rurik.mysql.com +0 -0
+    Auto merged
+
+  mysys/mf_keycache.c
+    1.56 06/04/19 16:22:53 igor@rurik.mysql.com +0 -0
+    Auto merged
+
+ChangeSet
+  1.1616.2536.3 06/04/19 16:08:37 igor@rurik.mysql.com +2 -0
+  Temporarily commented out a query from the test case for bug 14169 to make it pass with --ps-protocol.
+
+  mysql-test/t/func_gconcat.test
+    1.23.1.13 06/04/19 16:08:33 igor@rurik.mysql.com +3 -1
+    Temporarily commented out a query from the test case for bug 14169 to make it pass with --ps-protocol.
+
+  mysql-test/r/func_gconcat.result
+    1.27.1.19 06/04/19 16:08:32 igor@rurik.mysql.com +1 -0
+    Added DROP TABLE command to the test case for bug 14169.
+
+ChangeSet
+  1.1616.2538.1 06/04/20 00:27:43 evgen@moonbone.local +1 -0
+  func_gconcat.result:
+    Corrected test case for the bug#14169 to make it pass in --ps-protocol mode.
+
+  mysql-test/r/func_gconcat.result
+    1.27.1.18 06/04/20 00:26:29 evgen@moonbone.local +0 -7
+    Corrected test case for the bug#14169 to make it pass in --ps-protocol mode.
+
+ChangeSet
+  1.1616.2537.1 06/04/19 22:54:25 svoj@april.(none) +1 -0
+  Bug#18544 - LOCK TABLES timeout causes MyISAM table corruption
+  
+  After a locking error the open table(s) were not fully
+  cleaned up for reuse. But they were put into the open table
+  cache even before the lock was tried. The next statement
+  reused the table(s) with a wrong lock type set up. This
+  tricked MyISAM into believing that it don't need to update
+  the table statistics. Hence CHECK TABLE reported a mismatch
+  of record count and table size.
+  
+  Fortunately nothing worse has been detected yet. The effect
+  of the test case was that the insert worked on a read locked
+  table. (!)
+  
+  I added a new function that clears the lock type from all
+  tables that were prepared for a lock. I call this function
+  when a lock failes.
+  
+  No test case. One test would add 50 seconds to the
+  test suite. Another test requires file mode modifications.
+  I added a test script to the bug report. It contains three
+  cases for failing locks. All could reproduce a table
+  corruption. All are fixed by this patch.
+  
+  This bug was not lock timeout specific.
+
+  sql/lock.cc
+    1.42.1.25 06/04/19 22:54:22 svoj@april.(none) +53 -1
+    Bug#18544 - LOCK TABLES timeout causes MyISAM table corruption
+    Resetting the lock type in the open table(s) lock data
+    after a locking error.
+
+ChangeSet
+  1.2084.100.2 06/04/19 19:35:32 dlenev@mysql.com +1 -0
+  Merge bk-internal.mysql.com:/home/bk/mysql-5.0-runtime
+  into  mysql.com:/home/dlenev/mysql-5.0-bg16021
+
+  sql/item_func.cc
+    1.280 06/04/19 19:35:27 dlenev@mysql.com +0 -0
+    Auto merged
+
+ChangeSet
+  1.2084.100.1 06/04/19 19:13:03 dlenev@mysql.com +2 -0
+  Added test case for bug #16021 "Wrong index given to function in trigger"
+  which was caused by the same bulk insert optimization as bug #17764 but
+  had slightly different symptoms.
+
+  mysql-test/t/trigger.test
+    1.41 06/04/19 19:12:59 dlenev@mysql.com +25 -1
+    Added test case for bug #16021 "Wrong index given to function in trigger"
+    which was caused by the same bulk insert optimization as bug #17764 but
+    had slightly different symptoms.
+
+  mysql-test/r/trigger.result
+    1.36 06/04/19 19:12:59 dlenev@mysql.com +34 -1
+    Added test case for bug #16021 "Wrong index given to function in trigger"
+    which was caused by the same bulk insert optimization as bug #17764 but
+    had slightly different symptoms.
+
+ChangeSet
+  1.2084.1.82 06/04/19 16:23:35 msvensson@neptunus.(none) +1 -0
+  Bug#19190  	syntax error in mysql-test/mysql-test-run.sh script
+
+  mysql-test/mysql-test-run.sh
+    1.301 06/04/19 16:23:30 msvensson@neptunus.(none) +3 -1
+    Use 'test', not '[' as the shell builtin might not have '-L
+
+ChangeSet
+  1.2084.1.81 06/04/19 17:14:35 stewart@mysql.com +1 -0
+  Merge mysql.com:/home/stewart/Documents/MySQL/4.1/bug15530
+  into  mysql.com:/home/stewart/Documents/MySQL/5.0/merge
+
+  ndb/src/mgmclient/CommandInterpreter.cpp
+    1.58 06/04/19 17:14:30 stewart@mysql.com +0 -0
+    Auto merged
+
+ChangeSet
+  1.1616.2536.1 06/04/18 20:57:31 igor@rurik.mysql.com +3 -0
+  Fixed bug #19079.
+  The bug caused a reported index corruption in the cases when
+  key_cache_block_size was not a multiple of myisam_block_size,
+  e.g. when key_cache_block_size=1536 while myisam_block_size=1024.
+
+  mysys/mf_keycache.c
+    1.46.1.7 06/04/18 20:57:27 igor@rurik.mysql.com +7 -5
+    Fixed bug #19079.
+    The bug caused a reported index corruption in the cases when
+    key_cache_block_size was not a multiple of myisam_block_size,
+    e.g. when key_cache_block_size=1536 while myisam_block_size=1024.
+
+  mysql-test/t/key_cache.test
+    1.16.1.1 06/04/18 20:57:27 igor@rurik.mysql.com +40 -1
+    Added a test case for bug #19079.
+
+  mysql-test/r/key_cache.result
+    1.13.1.2 06/04/18 20:57:27 igor@rurik.mysql.com +42 -0
+    Added a test case for bug #19079.
+
+ChangeSet
+  1.2084.93.4 06/04/18 16:01:01 pem@mysql.com +3 -0
+  Fixed BUG#18344: DROP DATABASE does not drop associated routines
+    We must use the db key length in sp_drop_db_routines (and not the
+    number of characters), or long db names will be truncated in the key.
+
+  sql/sp.cc
+    1.110 06/04/18 16:00:57 pem@mysql.com +8 -12
+    In sp_drop_db_routines(), give the key field's ("db") key length
+    instead of the number of characters to index_read(), or the key
+    packing will truncate long db names.
+
+  mysql-test/t/sp.test
+    1.184 06/04/18 16:00:57 pem@mysql.com +32 -0
+    Added new test case for BUG#18344.
+
+  mysql-test/r/sp.result
+    1.196 06/04/18 16:00:57 pem@mysql.com +29 -0
+    Updated results for new test case (BUG#18344)
+
+ChangeSet
+  1.2084.61.7 06/04/18 14:36:29 jonas@perch.ndb.mysql.com +1 -0
+  ndb -
+    post merge
+
+  ndb/src/ndbapi/TransporterFacade.hpp
+    1.27 06/04/18 14:36:27 jonas@perch.ndb.mysql.com +1 -1
+    merge fix
+
+ChangeSet
+  1.2084.61.6 06/04/18 14:34:40 jonas@perch.ndb.mysql.com +3 -0
+  Merge perch.ndb.mysql.com:/home/jonas/src/41-work
+  into  perch.ndb.mysql.com:/home/jonas/src/50-work
+
+  ndb/src/ndbapi/TransporterFacade.hpp
+    1.26 06/04/18 14:34:36 jonas@perch.ndb.mysql.com +0 -0
+    Auto merged
+
+  ndb/src/ndbapi/TransporterFacade.cpp
+    1.43 06/04/18 14:34:36 jonas@perch.ndb.mysql.com +0 -0
+    Auto merged
+
+  ndb/src/ndbapi/Ndbif.cpp
+    1.32 06/04/18 14:34:36 jonas@perch.ndb.mysql.com +0 -0
+    Auto merged
+
+ChangeSet
+  1.1616.2530.2 06/04/18 14:34:11 jonas@perch.ndb.mysql.com +3 -0
+  ndb -
+    fix api_signal_log print of uncond signals
+
+  ndb/src/ndbapi/TransporterFacade.hpp
+    1.18.1.3 06/04/18 14:34:09 jonas@perch.ndb.mysql.com +2 -1
+    Fix printout of uncond signals
+
+  ndb/src/ndbapi/TransporterFacade.cpp
+    1.26.1.9 06/04/18 14:34:09 jonas@perch.ndb.mysql.com +4 -3
+    Fix printout of uncond signals
+
+  ndb/src/ndbapi/Ndbif.cpp
+    1.24.2.3 06/04/18 14:34:09 jonas@perch.ndb.mysql.com +2 -2
+    Send TC_COMMIT_ACK uncond
+
+ChangeSet
+  1.2084.42.6 06/04/18 13:26:41 kent@mysql.com +1 -0
+  configure.in:
+    Stepped up version to 5.0.20a
+
+  configure.in
+    1.379.1.1 06/04/18 13:26:21 kent@mysql.com +1 -1
+    Stepped up version to 5.0.20a
+
